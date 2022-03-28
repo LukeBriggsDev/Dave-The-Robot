@@ -8,5 +8,6 @@ if __name__ == "__main__":
     bot.load_extension("bot.cogs.role_chooser")
     bot.load_extension("bot.cogs.name")
     bot.load_extension("bot.cogs.greetings")
+    bot.load_extension("bot.cogs.funcogs")
 
     bot.run(settings.CLIENT_TOKEN)
