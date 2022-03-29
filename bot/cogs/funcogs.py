@@ -14,6 +14,16 @@ class FunCogs(Cog):
     def __init__(self, bot):
         self.bot = bot
 
+    def get_wisdom_list(self) -> List[str]:
+        with open(os.path.dirname(__file__) +"/../media/jokesandquotes.txt", "r") as f:
+            text = f.read().split("%")
+            return text
+
+    @command(help="Learn some sage advice")
+    async def wisdom(self, ctx):
+        text = self.get_wisdom_list()
+        await ctx.message.reply("```\n" + random.choice(text) + "\n```")
+
     @Cog.listener()
     async def on_message(self, message: discord.Message):
         if message.author == self.bot.user:
@@ -99,6 +109,24 @@ class FunCogs(Cog):
         if re.search(regex, message.content.lower()):
             await message.reply("Have you tried turning it off and on again?")
             return
+
+        # C excerpt
+        if "```c" in message.content.lower():
+            text = self.get_wisdom_list()
+            random.shuffle(text)
+            for wisdom in text:
+                if " c " in wisdom.lower():
+                    await message.reply(wisdom)
+                    return
+
+        # wtf
+        if "wtf" in message.content.lower() or "what the fuck" in message.content.lower():
+            with open(os.path.dirname(__file__) + "/../media/wat.txt", "r") as f:
+                wat_list = f.read().splitlines()
+            embed = Embed()
+            embed.set_image(url=random.choice(wat_list))
+            await message.reply("wtf indeed", embed=embed)
+
 
 
 def setup(bot):
