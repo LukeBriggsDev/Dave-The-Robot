@@ -126,6 +126,14 @@ class FunCogs(Cog):
             embed = Embed()
             embed.set_image(url=random.choice(wat_list))
             await message.reply("wtf indeed", embed=embed)
+            return
+
+        # spanish inquisition
+        if "expect" in message.content.lower():
+            embed = Embed()
+            embed.set_image(url="https://media4.giphy.com/media/xuXc3kD8AeVaw/giphy-downsized-large.gif")
+            await message.reply(embed=embed)
+            return
 
 
 
