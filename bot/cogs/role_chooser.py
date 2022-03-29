@@ -50,6 +50,7 @@ class RoleChooser(Cog, name="Choose Roles"):
             ]
             if len(role_objs) >= max_num:
                 await member.remove_roles(*role_objs)
+
         await member.add_roles(role)
         await ctx.send(
             f"Successfully assigned to {role.name}, {name}!")
