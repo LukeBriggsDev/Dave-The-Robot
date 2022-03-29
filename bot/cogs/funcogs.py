@@ -60,6 +60,7 @@ class FunCogs(Cog):
 
         # insult
         bad_words = [
+            "bad"
             "shut up",
             "hate",
             "go away",
