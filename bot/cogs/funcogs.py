@@ -56,7 +56,8 @@ class FunCogs(Cog):
             "https://c.tenor.com/pgg-9i83eLMAAAAd/black-books.gif",
             "https://media2.giphy.com/media/vNNoOAV7OUqsg/giphy.gif",
             "https://media0.giphy.com/media/79GPUDKNCXBJu/giphy.gif",
-            "https://i.imgur.com/WFfKhzg.gif"
+            "https://i.imgur.com/WFfKhzg.gif",
+            "https://media0.giphy.com/media/t7tGsalcWtUvNSpQ9V/200.gif?cid=82a1493b8n7rl8fb6z7uyce5k1986arkwbk2d1dv9rj9l9og&rid=200.gif&ct=g"
         ]
 
         if "dave" in message.content.lower() or self.bot.user in message.mentions or \
@@ -69,14 +70,18 @@ class FunCogs(Cog):
             "awesome",
             "best",
             "good",
-            "greatest"
+            "greatest",
+            "love",
+            "hail",
+            "brilliant"
+            "fantastic"
         ]
 
         response_gifs = [
             "https://i.pinimg.com/originals/3b/6e/3c/3b6e3c966609f0a30cc6cd1aee494f76.gif",
             "https://i.pinimg.com/originals/90/45/eb/9045ebe55d40f61aabf33d63a6ab1af6.gif",
             "https://i.pinimg.com/originals/b5/65/01/b5650194ea9262489f7a9d17ee07acae.gif",
-            "https://thumbs.gfycat.com/AlertHugeCutworm-max-1mb.gif",
+            "https://media3.giphy.com/media/gVoBC0SuaHStq/200w.gif?cid=82a1493bjpnmz3vx2vmsbnb3ne9ywf6nsv9y2sf7gft6in7d&rid=200w.gif&ct=g",
             "https://media3.giphy.com/media/14xwAVBIYjCNhu/giphy.gif",
             "https://c.tenor.com/0Fmqcn0HH3YAAAAC/almost-famous-russel-hammon.gif"
         ]
@@ -106,6 +111,7 @@ async def dave_mentioned(message: discord.Message, word_list: List[str], respons
             await message.reply(embed=embed)
             return True
     return False
+
 
 def create_wilty_image(text: str) -> Image:
     base_image = Image.open(os.path.dirname(__file__) + "/../media/mortimer.jpg")
