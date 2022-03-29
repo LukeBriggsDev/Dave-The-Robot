@@ -24,6 +24,18 @@ class FunCogs(Cog):
         text = self.get_wisdom_list()
         await ctx.message.reply("```\n" + random.choice(text) + "\n```")
 
+    @command(help="Express faith in something")
+    async def true(self, ctx):
+        embed = Embed()
+        embed.set_image(url="https://i.imgur.com/nPmAfBe.gif")
+        await ctx.message.reply(embed=embed)
+
+    @command(help="Express distrust in something")
+    async def lie(self, ctx):
+        embed = Embed()
+        embed.set_image(url="https://thumbs.gfycat.com/OfficialNeedyHarrier-size_restricted.gif")
+        await ctx.message.reply(embed=embed)
+
     @Cog.listener()
     async def on_message(self, message: discord.Message):
         if message.author == self.bot.user:
