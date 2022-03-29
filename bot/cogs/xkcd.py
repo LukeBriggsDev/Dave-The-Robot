@@ -13,7 +13,7 @@ class Xkcd(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    @command()
+    @command(help="Retrieve xkcd by number")
     async def xkcd(self, ctx: Context, *, num=None):
         if num is None:
             return
