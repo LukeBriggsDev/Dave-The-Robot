@@ -57,7 +57,9 @@ class FunCogs(Cog):
             "https://media2.giphy.com/media/vNNoOAV7OUqsg/giphy.gif",
             "https://media0.giphy.com/media/79GPUDKNCXBJu/giphy.gif",
             "https://i.imgur.com/WFfKhzg.gif",
-            "https://media0.giphy.com/media/t7tGsalcWtUvNSpQ9V/200.gif?cid=82a1493b8n7rl8fb6z7uyce5k1986arkwbk2d1dv9rj9l9og&rid=200.gif&ct=g"
+            "https://media0.giphy.com/media/t7tGsalcWtUvNSpQ9V/200.gif?cid=82a1493b8n7rl8fb6z7uyce5k1986arkwbk2d1dv9rj9l9og&rid=200.gif&ct=g",
+            "https://i.gifer.com/origin/39/3987e1a120ddcbb8c74aff00c95565e6_w200.gif",
+            "https://c.tenor.com/67wn6leyK5cAAAAC/always-sunny.gif"
         ]
 
         if "dave" in message.content.lower() or self.bot.user in message.mentions or \
@@ -73,8 +75,9 @@ class FunCogs(Cog):
             "greatest",
             "love",
             "hail",
-            "brilliant"
-            "fantastic"
+            "brilliant",
+            "fantastic",
+            "amazing"
         ]
 
         response_gifs = [
