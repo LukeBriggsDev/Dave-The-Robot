@@ -96,6 +96,7 @@ class FunCogs(Cog):
             "best",
             "good",
             "greatest",
+            "great",
             "love",
             "hail",
             "brilliant",
