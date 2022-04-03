@@ -138,5 +138,47 @@ A conclusion is simply the place where someone got tired of thinking.
 "You either die a hero or you live long enough to see yourself become the person who @channel's everyone."
 %
 !FALSE.
-
+%
 It’s funny because it’s true.
+%
+"Java is to JavaScript what Car is to Carpet."
+%
+"I don't know how many of you have ever met Dijkstra, but you probably know that arrogance in computer science is measured in nanodijkstras."
+%
+Deleted code is debugged code.
+%
+Mathematicians stand on each others' shoulders and computer scientists stand on each others' toes.
+%
+"Programming graphics in X is like finding the square root of PI using Roman numerals."
+%
+Most xml i’ve seen makes me think i’m dyslexic. it also looks constipated, and two health problems in one standard is just too much.
+%
+If the designers of X Windows built cars, there would be no fewer than five steering wheels hidden about the cockpit, none of which followed the same principles – but you’d be able to shift gears with your car stereo. Useful feature that.
+%
+Mostly, when you see programmers, they aren’t doing anything. One of the attractive things about programmers is that you cannot tell whether or not they are working simply by looking at them. Very often they’re sitting there seemingly drinking coffee and gossiping, or just staring into space. What the programmer is trying to do is get a handle on all the individual and unrelated ideas that are scampering around in his head.
+%
+[Like programmers] prostitutes also think they all suck.
+%
+And both, programmers and prostitutes, are right: they suck. The big difference is that prostitutes got the term “user-friendly” right.
+%
+I recommend the linux people to call it “GNU / Linux” instead of “GNU/Linux”. never hurts to distance yourself from GNU.
+%
+Hofstadter’s Law: It always takes longer than you expect, even when you take into account Hofstadter’s Law.
+%
+Theory is when you know something, but it doesn’t work. Practice is when something works, but you don’t know why. Programmers combine theory and practice: Nothing works and they don’t know why.
+%
+Code never lies, comments sometimes do.
+%
+If we’d asked the customers what they wanted, they would have said “faster horses”
+
+        — Henry Ford
+%
+I (…) am rarely happier than when spending an entire day programming my computer to perform automatically a task that would otherwise take me a good ten seconds to do by hand.
+
+        — Douglas Adams, Last Chance to See
+%
+I have found that the reason a lot of people are interested in artificial intelligence is the same reason a lot of people are interested in artificial limbs: they are missing one.
+%
+A fool with a tool is a more dangerous fool.
+%
+A distributed system is one in which the failure of a computer you didn’t even know existed can render your own computer unusable.
