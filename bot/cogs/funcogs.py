@@ -20,15 +20,32 @@ class FunCogs(Cog):
             return text
 
     @command(help="Learn some sage advice")
-    async def wisdom(self, ctx):
+    async def wisdom(self, ctx, *, num=None):
+        num = int(num)
         text = self.get_wisdom_list()
-        await ctx.message.reply("```\n" + random.choice(text) + "\n```")
+        choice = None
+        if num is None or num < 0 or num > len(text) - 1:
+            choice = random.choice(text)
+        else:
+            choice = text[num]
+        await ctx.message.reply("```\n" + choice + "\n```")
 
     @command(help="Express faith in something")
     async def true(self, ctx):
         embed = Embed()
         embed.set_image(url="https://i.imgur.com/nPmAfBe.gif")
         await ctx.message.reply(embed=embed)
+
+    @command(help="Shutdown dave")
+    async def shutdown(self, ctx):
+        embed = Embed()
+        await ctx.message.reply(file=discord.File(os.path.dirname(__file__) + "/../media/daisy.mp3"))
+
+    @command(hidden=True)
+    async def save_john_conner(self, ctx):
+        role = discord.utils.get(ctx.author.roles, name="Admin")
+        if role in ctx.author.roles:
+            exit()
 
     @command(help="Express distrust in something")
     async def lie(self, ctx):

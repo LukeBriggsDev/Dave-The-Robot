@@ -182,3 +182,8 @@ I have found that the reason a lot of people are interested in artificial intell
 A fool with a tool is a more dangerous fool.
 %
 A distributed system is one in which the failure of a computer you didn’t even know existed can render your own computer unusable.
+%
+"Ah screw it. Just do whatever you want"
+
+        - Marcus Aurelius, Meditations
+%
