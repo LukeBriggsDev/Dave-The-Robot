@@ -21,7 +21,8 @@ class FunCogs(Cog):
 
     @command(help="Learn some sage advice")
     async def wisdom(self, ctx, *, num=None):
-        num = int(num)
+        if num is not None:
+            num = int(num)
         text = self.get_wisdom_list()
         choice = None
         if num is None or num < 0 or num > len(text) - 1:

@@ -1,189 +1,189 @@
-Some people, when confronted with a problem, think, 'I know, I'll use threads' - and then two they hav erpoblesms.
+#0 Some people, when confronted with a problem, think, 'I know, I'll use threads' - and then two they hav erpoblesms.
 %
-A guy walks into a bar and asks for 1.4 root beers. The bartender says "I'll have to charge you extra, that's a root beer float". The guy says "In that case, better make it a double."
+#1 A guy walks into a bar and asks for 1.4 root beers. The bartender says "I'll have to charge you extra, that's a root beer float". The guy says "In that case, better make it a double."
 %
-Java and C were telling jokes. It was C's turn, so he writes something on the wall, points to it and says "Do you get the reference?" But Java didn't.
+#2 Java and C were telling jokes. It was C's turn, so he writes something on the wall, points to it and says "Do you get the reference?" But Java didn't.
 %
-A programmer is heading out to the grocery store, so his wife tells him "get a gallon of milk, and if they have eggs, get a dozen." He returns with 13 gallons of milk.
+#3 A programmer is heading out to the grocery store, so his wife tells him "get a gallon of milk, and if they have eggs, get a dozen." He returns with 13 gallons of milk.
 %
-A SQL statement walks into a bar and sees two tables. It approaches, and asks "may I join you?"
+#4 A SQL statement walks into a bar and sees two tables. It approaches, and asks "may I join you?"
 %
-Your mama's so FAT she can't save files bigger than 4GB.
+#5 Your mama's so FAT she can't save files bigger than 4GB.
 %
-Saying that Java is nice because it works on every OS is like saying that anal sex is nice because it works on every gender.
+#6 Saying that Java is nice because it works on every OS is like saying that anal sex is nice because it works on every gender.
 %
-["hip", "hip"] Array!
+#7 ["hip", "hip"] Array!
 %
-I � Unicode
+#8 I � Unicode
 %
-I could tell you a joke about UDP but I don't know if you would get it.
+#9 I could tell you a joke about UDP but I don't know if you would get it.
 %
-A programmer walks into a bar, sits down next to a pretty girl and says "I'm making a pull request."
+#10 A programmer walks into a bar, sits down next to a pretty girl and says "I'm making a pull request."
 %
-walks UDP package into bar A.
+#11 walks UDP package into bar A.
 %
-There are only two difficult problems in computer science: naming things, cache invalidation, and off-by-one errors.
+#12 There are only two difficult problems in computer science: naming things, cache invalidation, and off-by-one errors.
 %
-What do you call 8 Hobbits? A Hobbyte.
+#13 What do you call 8 Hobbits? A Hobbyte.
 %
-Why did c++ decide to not go out with c? Because quite frankly, c just has no class
+#14 Why did c++ decide to not go out with c? Because quite frankly, c just has no class
 %
-Nondeterminism means never having to say you are wrong.
+#15 Nondeterminism means never having to say you are wrong.
 %
-Stealing a rhinoceros should not be attempted lightly.
+#16 Stealing a rhinoceros should not be attempted lightly.
 %
-The C Programming Language: A language which combines the flexibility of assembly language with the power of assembly language.
+#17 The C Programming Language: A language which combines the flexibility of assembly language with the power of assembly language.
 %
-The voters have spoken, the bastards...
+#18 The voters have spoken, the bastards...
 %
-The way to make a small fortune in the commodities market is to start with a large fortune.
+#19 The way to make a small fortune in the commodities market is to start with a large fortune.
 %
-I/O, I/O,
+#20 I/O, I/O,
 It's off to disk I go,
 a bit or byte to read or write,
 I/O, I/O, I/O, I/O
 %
-“The story so far:
+#21 “The story so far:
 In the beginning the Universe was created.
 This has made a lot of people very angry and been widely regarded as a bad move.”
 %
-“I refuse to answer that question on the grounds that I don't know the answer”
+#22 “I refuse to answer that question on the grounds that I don't know the answer”
 %
-“There is a theory which states that if ever anyone discovers exactly what the Universe is for and why it is here, it will instantly disappear and be replaced by something even more bizarre and inexplicable.
+#23 “There is a theory which states that if ever anyone discovers exactly what the Universe is for and why it is here, it will instantly disappear and be replaced by something even more bizarre and inexplicable.
 
 There is another theory which states that this has already happened.”
 %
-“The Guide says there is an art to flying", said Ford, "or rather a knack. The knack lies in learning how to throw yourself at the ground and miss.”
+#24 “The Guide says there is an art to flying", said Ford, "or rather a knack. The knack lies in learning how to throw yourself at the ground and miss.”
 %
-“Time is an illusion. Lunchtime doubly so.”
+#25 “Time is an illusion. Lunchtime doubly so.”
 %
-“Don't Panic.”
+#26 “Don't Panic.”
 %
-“A learning experience is one of those things that says, 'You know that thing you just did? Don't do that.”
+#27 “A learning experience is one of those things that says, 'You know that thing you just did? Don't do that.”
 %
-“Nothing travels faster than the speed of light, with the possible exception of bad news, which obeys its own special laws.”
+#28 “Nothing travels faster than the speed of light, with the possible exception of bad news, which obeys its own special laws.”
 %
-“For a moment, nothing happened. Then, after a second or so, nothing continued to happen.”
+#29 “For a moment, nothing happened. Then, after a second or so, nothing continued to happen.”
 %
-“You live and learn. At any rate, you live.”
+#30 “You live and learn. At any rate, you live.”
 %
-"He inched his way up the hall as if he'd rather be yarding down it"
+#31 "He inched his way up the hall as if he'd rather be yarding down it"
 %
-Rome wasn't burned in a day.
+#32 Rome wasn't burned in a day.
 %
-"Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the universe trying to build bigger and better idiots. So far, the universe is winning."
+#33 "Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the universe trying to build bigger and better idiots. So far, the universe is winning."
 %
-"Walking on water and developing software from a specification are easy if both are frozen."
+#34 "Walking on water and developing software from a specification are easy if both are frozen."
 %
-"They don't make bugs like Bunny anymore."
+#35 "They don't make bugs like Bunny anymore."
 %
-"A C program is like a fast dance on a newly waxed dance floor by people carrying razors."
+#36 "A C program is like a fast dance on a newly waxed dance floor by people carrying razors."
 %
-"I have always wished for my computer to be as easy to use as my telephone; my wish has come true because I can no longer figure out how to use my telephone." - Bjarne Stroustrup
+#37 "I have always wished for my computer to be as easy to use as my telephone; my wish has come true because I can no longer figure out how to use my telephone." - Bjarne Stroustrup
 %
-“Don’t worry if it doesn’t work right. If everything did, you’d be out of a job.”
+#38 “Don’t worry if it doesn’t work right. If everything did, you’d be out of a job.”
 %
-“I think Microsoft named .Net so it wouldn’t show up in a Unix directory listing.”
+#39 “I think Microsoft named .Net so it wouldn’t show up in a Unix directory listing.”
 %
-"In the one and only true way. The object-oriented version of 'Spaghetti code' is, of course, 'Lasagna code'. (Too many layers)."
+#40 "In the one and only true way. The object-oriented version of 'Spaghetti code' is, of course, 'Lasagna code'. (Too many layers)."
 %
-"In My Egotistical Opinion, most people's C programs should be indented six feet downward and covered with dirt."
+#41 "In My Egotistical Opinion, most people's C programs should be indented six feet downward and covered with dirt."
 %
-"In theory, theory and practice are the same. In practice, they’re not."
+#42 "In theory, theory and practice are the same. In practice, they’re not."
 %
-"Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday's code."
+#43 "Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday's code."
 %
-"On two occasions I have been asked [by members of Parliament]: 'Pray, Mr. Babbage, if you put into the machine wrong figures, will the right answers come out?' I am not able rightly to apprehend the kind of confusion of ideas that could provoke such a question."
+#44 "On two occasions I have been asked [by members of Parliament]: 'Pray, Mr. Babbage, if you put into the machine wrong figures, will the right answers come out?' I am not able rightly to apprehend the kind of confusion of ideas that could provoke such a question."
 %
-“There are two ways of constructing a software design. One way is to make it so simple that there are obviously no deficiencies. And the other way is to make it so complicated that there are no obvious deficiencies.”
+#45 “There are two ways of constructing a software design. One way is to make it so simple that there are obviously no deficiencies. And the other way is to make it so complicated that there are no obvious deficiencies.”
 %
-"The question of whether computers can think is like the question whether submarines can swim."
+#46 "The question of whether computers can think is like the question whether submarines can swim."
 %
-"Should array indices start at 0 or 1? My compromise of 0.5 was rejected without, I thought, proper consideration."
+#47 "Should array indices start at 0 or 1? My compromise of 0.5 was rejected without, I thought, proper consideration."
 %
-"C++ is an octopus made by nailing extra legs onto a dog."
+#48 "C++ is an octopus made by nailing extra legs onto a dog."
 %
-"The great thing about standards is that there's so many to choose from."
+#49 "The great thing about standards is that there's so many to choose from."
 %
-"The most expensive words in engineering are 'It would be cool if-'"
+#50 "The most expensive words in engineering are 'It would be cool if-'"
 %
-"Never underestimate the bandwidth of a station wagon full of tapes hurtling down the highway."
+#51 "Never underestimate the bandwidth of a station wagon full of tapes hurtling down the highway."
 %
-"If Java had true garbage collection, most programs would delete themselves upon execution."
+#52 "If Java had true garbage collection, most programs would delete themselves upon execution."
 %
-"The last good thing that was written in C was Franz Schubert's Symphony No. 9."
+#53 "The last good thing that was written in C was Franz Schubert's Symphony No. 9."
 %
-"A computer lets you make more mistakes faster than any other invention in human history, with the possible exceptions of handguns and tequila"
+#54 "A computer lets you make more mistakes faster than any other invention in human history, with the possible exceptions of handguns and tequila"
 %
-I demand a shrubbery!
+#55 I demand a shrubbery!
 %
-"On second thought, let's not go to Camelot. 'Tis a silly place"
+#56 "On second thought, let's not go to Camelot. 'Tis a silly place"
 %
-Any code of your own that you haven't looked at for six or more months
+#57 Any code of your own that you haven't looked at for six or more months
 might as well have been written by someone else.
         ― Eagleson's Law
 %
-... Had this been an actual emergency, we would have fled in terror,
+#58 ... Had this been an actual emergency, we would have fled in terror,
 and you would not have been informed.
 %
-43rd Law of Computing: Anything that can go wr
+#59 43rd Law of Computing: Anything that can go wr
 Dave: Segmentation fault ― core dumped
 %
-A conclusion is simply the place where someone got tired of thinking.
+#60 A conclusion is simply the place where someone got tired of thinking.
 %
-"Every good idea will be discovered twice: once by a logician and once by a computer scientist."
+#61 "Every good idea will be discovered twice: once by a logician and once by a computer scientist."
 %
-"The best way to get the right answer on the Internet is not to ask a question, it's to post the wrong answer."
+#62 "The best way to get the right answer on the Internet is not to ask a question, it's to post the wrong answer."
 %
-"You either die a hero or you live long enough to see yourself become the person who @channel's everyone."
+#63 "You either die a hero or you live long enough to see yourself become the person who @channel's everyone."
 %
-!FALSE.
-%
+#64 !FALSE.
+
 It’s funny because it’s true.
 %
-"Java is to JavaScript what Car is to Carpet."
+#65 "Java is to JavaScript what Car is to Carpet."
 %
-"I don't know how many of you have ever met Dijkstra, but you probably know that arrogance in computer science is measured in nanodijkstras."
+#66 "I don't know how many of you have ever met Dijkstra, but you probably know that arrogance in computer science is measured in nanodijkstras."
 %
-Deleted code is debugged code.
+#67 Deleted code is debugged code.
 %
-Mathematicians stand on each others' shoulders and computer scientists stand on each others' toes.
+#68 Mathematicians stand on each others' shoulders and computer scientists stand on each others' toes.
 %
-"Programming graphics in X is like finding the square root of PI using Roman numerals."
+#69 "Programming graphics in X is like finding the square root of PI using Roman numerals."
 %
-Most xml i’ve seen makes me think i’m dyslexic. it also looks constipated, and two health problems in one standard is just too much.
+#70 Most xml i’ve seen makes me think i’m dyslexic. it also looks constipated, and two health problems in one standard is just too much.
 %
-If the designers of X Windows built cars, there would be no fewer than five steering wheels hidden about the cockpit, none of which followed the same principles – but you’d be able to shift gears with your car stereo. Useful feature that.
+#71 If the designers of X Windows built cars, there would be no fewer than five steering wheels hidden about the cockpit, none of which followed the same principles – but you’d be able to shift gears with your car stereo. Useful feature that.
 %
-Mostly, when you see programmers, they aren’t doing anything. One of the attractive things about programmers is that you cannot tell whether or not they are working simply by looking at them. Very often they’re sitting there seemingly drinking coffee and gossiping, or just staring into space. What the programmer is trying to do is get a handle on all the individual and unrelated ideas that are scampering around in his head.
+#72 Mostly, when you see programmers, they aren’t doing anything. One of the attractive things about programmers is that you cannot tell whether or not they are working simply by looking at them. Very often they’re sitting there seemingly drinking coffee and gossiping, or just staring into space. What the programmer is trying to do is get a handle on all the individual and unrelated ideas that are scampering around in his head.
 %
-[Like programmers] prostitutes also think they all suck.
+#73 [Like programmers] prostitutes also think they all suck.
 %
-And both, programmers and prostitutes, are right: they suck. The big difference is that prostitutes got the term “user-friendly” right.
+#74 And both, programmers and prostitutes, are right: they suck. The big difference is that prostitutes got the term “user-friendly” right.
 %
-I recommend the linux people to call it “GNU / Linux” instead of “GNU/Linux”. never hurts to distance yourself from GNU.
+#75 I recommend the linux people to call it “GNU / Linux” instead of “GNU/Linux”. never hurts to distance yourself from GNU.
 %
-Hofstadter’s Law: It always takes longer than you expect, even when you take into account Hofstadter’s Law.
+#76 Hofstadter’s Law: It always takes longer than you expect, even when you take into account Hofstadter’s Law.
 %
-Theory is when you know something, but it doesn’t work. Practice is when something works, but you don’t know why. Programmers combine theory and practice: Nothing works and they don’t know why.
+#77 Theory is when you know something, but it doesn’t work. Practice is when something works, but you don’t know why. Programmers combine theory and practice: Nothing works and they don’t know why.
 %
-Code never lies, comments sometimes do.
+#78 Code never lies, comments sometimes do.
 %
-If we’d asked the customers what they wanted, they would have said “faster horses”
+#79 If we’d asked the customers what they wanted, they would have said “faster horses”
 
         — Henry Ford
 %
-I (…) am rarely happier than when spending an entire day programming my computer to perform automatically a task that would otherwise take me a good ten seconds to do by hand.
+#80 I (…) am rarely happier than when spending an entire day programming my computer to perform automatically a task that would otherwise take me a good ten seconds to do by hand.
 
         — Douglas Adams, Last Chance to See
 %
-I have found that the reason a lot of people are interested in artificial intelligence is the same reason a lot of people are interested in artificial limbs: they are missing one.
+#81 I have found that the reason a lot of people are interested in artificial intelligence is the same reason a lot of people are interested in artificial limbs: they are missing one.
 %
-A fool with a tool is a more dangerous fool.
+#82 A fool with a tool is a more dangerous fool.
 %
-A distributed system is one in which the failure of a computer you didn’t even know existed can render your own computer unusable.
+#83 A distributed system is one in which the failure of a computer you didn’t even know existed can render your own computer unusable.
 %
-"Ah screw it. Just do whatever you want"
+#84 "Ah screw it. Just do whatever you want"
 
         - Marcus Aurelius, Meditations
 %
