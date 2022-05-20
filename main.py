@@ -10,6 +10,6 @@ if __name__ == "__main__":
     bot.load_extension("bot.cogs.greetings")
     bot.load_extension("bot.cogs.funcogs")
     bot.load_extension("bot.cogs.xkcd")
+    bot.load_extension("bot.cogs.tweet")
     print("Bot loaded")
     bot.run(settings.CLIENT_TOKEN)
-

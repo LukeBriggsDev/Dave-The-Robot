@@ -1,2 +1,4 @@
 discord.py
 pillow
+schedule
+tweepy

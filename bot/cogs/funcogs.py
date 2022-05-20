@@ -1,21 +1,28 @@
 import discord
+
 from discord import Embed, Member
 from discord.ext.commands import Cog, command, check
 import re
 
 from typing import List
+from time import sleep
 
-from bot.settings import CHANNEL_ID, FIELDS
 from PIL import Image, ImageDraw, ImageFont
 import os
 import random
 
+import subprocess
+
+
 class FunCogs(Cog):
     def __init__(self, bot):
+        print("hello")
         self.bot = bot
 
     def get_wisdom_list(self) -> List[str]:
-        with open(os.path.dirname(__file__) +"/../media/jokesandquotes.txt", "r") as f:
+        with open(
+                os.path.dirname(__file__) + "/../media/jokesandquotes.txt",
+                "r") as f:
             text = f.read().split("%")
             return text
 
@@ -31,6 +38,15 @@ class FunCogs(Cog):
             choice = text[num]
         await ctx.message.reply("```\n" + choice + "\n```")
 
+    @command(help="RTFM")
+    async def man(self, ctx, *, page=None):
+      page_text = subprocess.check_output(["man", f"{page}"]).decode("utf-8") 
+      # Create temp file
+      f = open("./tmpman.txt", "w")
+      f.write(page_text)
+      f.close()
+      await ctx.message.reply(file=discord.File("./tmpman.txt"))
+
     @command(help="Express faith in something")
     async def true(self, ctx):
         embed = Embed()
@@ -40,10 +56,11 @@ class FunCogs(Cog):
     @command(help="Shutdown dave")
     async def shutdown(self, ctx):
         embed = Embed()
-        await ctx.message.reply(file=discord.File(os.path.dirname(__file__) + "/../media/daisy.mp3"))
+        await ctx.message.reply(file=discord.File(
+            os.path.dirname(__file__) + "/../media/daisy.mp3"))
 
     @command(hidden=True)
-    async def save_john_conner(self, ctx):
+    async def save_john_connor(self, ctx):
         role = discord.utils.get(ctx.author.roles, name="Admin")
         if role in ctx.author.roles:
             exit()
@@ -51,7 +68,10 @@ class FunCogs(Cog):
     @command(help="Express distrust in something")
     async def lie(self, ctx):
         embed = Embed()
-        embed.set_image(url="https://thumbs.gfycat.com/OfficialNeedyHarrier-size_restricted.gif")
+        embed.set_image(
+            url=
+            "https://thumbs.gfycat.com/OfficialNeedyHarrier-size_restricted.gif"
+        )
         await ctx.message.reply(embed=embed)
 
     @Cog.listener()
@@ -63,8 +83,13 @@ class FunCogs(Cog):
         regex = re.compile(r"(localhost)|(127.0.0.1)|(local host)")
         if re.search(regex, message.content.lower()):
             embed = Embed()
-            embed.set_image(url="https://c.tenor.com/sSBdT5ha3GUAAAAC/league-of-gentlemen-local-shop.gif")
-            await message.reply("That is a localhost for local people, we'll have no servers there", embed=embed)
+            embed.set_image(
+                url=
+                "https://c.tenor.com/sSBdT5ha3GUAAAAC/league-of-gentlemen-local-shop.gif"
+            )
+            await message.reply(
+                "That is a localhost for local people, we'll have no servers there",
+                embed=embed)
             return
 
         # WILTY
@@ -73,18 +98,14 @@ class FunCogs(Cog):
             text = re.search(regex, message.content).string
             image = create_wilty_image(text)
             image.save(os.path.dirname(__file__) + "/../media/temp.jpg")
-            await message.reply(file=discord.File(os.path.dirname(__file__) + "/../media/temp.jpg"))
+            await message.reply(file=discord.File(
+                os.path.dirname(__file__) + "/../media/temp.jpg"))
             return
 
         # insult
         bad_words = [
             "bad"
-            "shut up",
-            "hate",
-            "go away",
-            "piss off",
-            "fuck off",
-            "fuck",
+            "shut up", "hate", "go away", "piss off", "fuck off", "fuck", "sucks",
             "worst"
         ]
 
@@ -110,16 +131,8 @@ class FunCogs(Cog):
 
         # Praise
         good_words = [
-            "awesome",
-            "best",
-            "good",
-            "greatest",
-            "great",
-            "love",
-            "hail",
-            "brilliant",
-            "fantastic",
-            "amazing"
+            "awesome", "best", "good", "greatest", "great", "love", "hail",
+            "brilliant", "fantastic", "amazing"
         ]
 
         response_gifs = [
@@ -142,6 +155,12 @@ class FunCogs(Cog):
             await message.reply("Have you tried turning it off and on again?")
             return
 
+        # Information on the task
+        regex = re.compile(r"((how).*((meant)|(supposed)).*)")
+        if re.search(regex, message.content.lower()):
+            await message.reply(file=discord.File(os.path.abspath("./bot/media/taskmaster-all.gif")))
+            return
+        
         # C excerpt
         if "```c" in message.content.lower():
             text = self.get_wisdom_list()
@@ -152,8 +171,10 @@ class FunCogs(Cog):
                     return
 
         # wtf
-        if "wtf" in message.content.lower() or "what the fuck" in message.content.lower():
-            with open(os.path.dirname(__file__) + "/../media/wat.txt", "r") as f:
+        if "wtf" in message.content.lower(
+        ) or "what the fuck" in message.content.lower():
+            with open(os.path.dirname(__file__) + "/../media/wat.txt",
+                      "r") as f:
                 wat_list = f.read().splitlines()
             embed = Embed()
             embed.set_image(url=random.choice(wat_list))
@@ -163,17 +184,28 @@ class FunCogs(Cog):
         # spanish inquisition
         if "expect" in message.content.lower():
             embed = Embed()
-            embed.set_image(url="https://media4.giphy.com/media/xuXc3kD8AeVaw/giphy-downsized-large.gif")
+            embed.set_image(
+                url=
+                "https://media4.giphy.com/media/xuXc3kD8AeVaw/giphy-downsized-large.gif"
+            )
             await message.reply(embed=embed)
             return
 
+        if "spam" in message.content.lower():
+            embed = Embed()
+            embed.set_image(
+                url=
+                "https://c.tenor.com/U-MO3eKU3tAAAAAd/monty-python-flying.gif")
+            await message.reply(embed=embed)
+            return
 
 
 def setup(bot):
     bot.add_cog(FunCogs(bot))
 
 
-async def dave_mentioned(message: discord.Message, word_list: List[str], response_gifs: List[str]) -> bool:
+async def dave_mentioned(message: discord.Message, word_list: List[str],
+                         response_gifs: List[str]) -> bool:
     """Dave is named, mentioned, or replied to with a word from the word_list"""
     for word in word_list:
         if word in message.content.lower():
@@ -185,18 +217,23 @@ async def dave_mentioned(message: discord.Message, word_list: List[str], respons
 
 
 def create_wilty_image(text: str) -> Image:
-    base_image = Image.open(os.path.dirname(__file__) + "/../media/mortimer.jpg")
+    base_image = Image.open(
+        os.path.dirname(__file__) + "/../media/mortimer.jpg")
 
     font_size = 1
-    font = ImageFont.truetype(os.path.dirname(__file__) + "/../media/texgyreheros-regular.otf", font_size)
+    font = ImageFont.truetype(
+        os.path.dirname(__file__) + "/../media/texgyreheros-regular.otf",
+        font_size)
     while font.getsize(text)[0] < base_image.width * 0.9:
         font_size += 1
-        font = ImageFont.truetype(os.path.dirname(__file__) + "/../media/texgyreheros-regular.otf", font_size)
+        font = ImageFont.truetype(
+            os.path.dirname(__file__) + "/../media/texgyreheros-regular.otf",
+            font_size)
 
-    new_image = Image.new("RGB",
-                          (base_image.width,
-                           base_image.height + font.getsize(text)[1] + 20),
-                          color=(255, 255, 255))
+    new_image = Image.new(
+        "RGB",
+        (base_image.width, base_image.height + font.getsize(text)[1] + 20),
+        color=(255, 255, 255))
     new_image.paste(base_image)
     draw = ImageDraw.Draw(new_image)
 
