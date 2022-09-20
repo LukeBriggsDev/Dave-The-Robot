@@ -1,6 +1,18 @@
 from discord.ext.commands import Cog, command, check
 
-from bot.settings import CHANNEL_ID
+from bot.settings import CHANNEL_ID, SERVER_2020, SERVER_2022_CHANNEL_ID
+
+
+def is_in_channel():
+    async def predicate(ctx):
+        member = ctx.message.author
+        channel = member.guild.get_channel(
+            CHANNEL_ID
+        ) if member.guild.id == SERVER_2020 else member.guild.get_channel(
+            SERVER_2022_CHANNEL_ID)
+        return channel.id == ctx.message.channel.id
+
+    return check(predicate)
 
 
 class Name(Cog):
@@ -8,9 +20,8 @@ class Name(Cog):
         self.bot = bot
 
     @command(
-        help="Change your displayed name to your real name for this server."
-    )
-    @check(lambda ctx: ctx.message.channel.id == CHANNEL_ID)
+        help="Change your displayed name to your real name for this server.")
+    @is_in_channel()
     async def name(self, ctx, *, new_nick=None):
         member = ctx.author
         old_nick = member.nick

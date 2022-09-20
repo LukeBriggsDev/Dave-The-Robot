@@ -49,9 +49,9 @@ This has made a lot of people very angry and been widely regarded as a bad move.
 %
 #22 “I refuse to answer that question on the grounds that I don't know the answer”
 %
-#23 “There is a theory which states that if ever anyone discovers exactly what the Universe is for and why it is here, it will instantly disappear and be replaced by something even more bizarre and inexplicable.
+#23 There is a theory which states that if ever anyone discovers exactly what the Universe is for and why it is here, it will instantly disappear and be replaced by something even more bizarre and inexplicable.
 
-There is another theory which states that this has already happened.”
+There is another theory which states that this has already happened.
 %
 #24 “The Guide says there is an art to flying", said Ford, "or rather a knack. The knack lies in learning how to throw yourself at the ground and miss.”
 %
@@ -155,7 +155,7 @@ It’s funny because it’s true.
 %
 #71 If the designers of X Windows built cars, there would be no fewer than five steering wheels hidden about the cockpit, none of which followed the same principles – but you’d be able to shift gears with your car stereo. Useful feature that.
 %
-#72 Mostly, when you see programmers, they aren’t doing anything. One of the attractive things about programmers is that you cannot tell whether or not they are working simply by looking at them. Very often they’re sitting there seemingly drinking coffee and gossiping, or just staring into space. What the programmer is trying to do is get a handle on all the individual and unrelated ideas that are scampering around in his head.
+#72 Mostly, when you see programmers, they aren’t doing anything. One of the attractive things about programmers is that you cannot tell whether or not they are working simply by looking at them. 
 %
 #73 [Like programmers] prostitutes also think they all suck.
 %
@@ -187,5 +187,35 @@ It’s funny because it’s true.
 
         - Marcus Aurelius, Meditations
 %
-'As I rounded the corner I felt muscular and compact, like corned beef.'' –Dr. Rick Dagless
+#85 'As I rounded the corner I felt muscular and compact, like corned beef.'' –Dr. Rick Dagless
+%
+#86 The unix second ammendment: The right to have an admin account without password protection
+%
+#87 Larry Wall falls asleep and hits Larry Wall's forehead on the keyboard. Upon waking Larry Wall decides that the string of characters on Larry Wall's monitor isn't random but an example program in a programming language that God wants His prophet to design. Perl is born.
+%
+#88 as a C programer, the programs i write are increasingly less and less relevant, full of dangerous and outdated ideas, and need to be kept carefully isolated for everyone's safety. that's why this month i'm partnering with the entire United Kingdom
+%
+#89 https://www.youtube.com/watch?v=cBD3xnI5eSE
+%
+#90 https://www.youtube.com/watch?v=tIOGkIw4CQo
+%
+#91 https://www.youtube.com/watch?v=XjJzIpFZld4
+%
+#92 https://youtu.be/Zh8iXc2d71U
+%
+#93 https://www.youtube.com/watch?v=YqmpVWzH4FM
+%
+#94 A programmer was arrested for writing unreadable code…
+
+He refused to comment.
+%
+#95 Don't use "beef stew" as a computer password. It's not stroganoff
+%
+#96 My computer suddenly started belting out "Someone Like You." It's a Dell.
+%
+#97 I was walking down the street where the houses were numbered, 64k, 128k, 256k, 512k, and 1MB. That was a trip down memory lane.
+%
+#98 Tickling is a form of Denial of Service for children
+%
+#99 An Englishman, even if he is alone, forms an orderly queue of one.
 %

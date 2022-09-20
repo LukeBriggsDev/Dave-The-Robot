@@ -1,15 +1,19 @@
 import discord
-
+import schedule
 from discord import Embed, Member
 from discord.ext.commands import Cog, command, check
+from discord.ext import tasks
 import re
-
+from bot.settings import GENERAL_CHANNEL
 from typing import List
 from time import sleep
+from discord.ext import commands
+import asyncio
 
 from PIL import Image, ImageDraw, ImageFont
 import os
 import random
+import datetime
 
 import subprocess
 
@@ -38,15 +42,6 @@ class FunCogs(Cog):
             choice = text[num]
         await ctx.message.reply("```\n" + choice + "\n```")
 
-    @command(help="RTFM")
-    async def man(self, ctx, *, page=None):
-      page_text = subprocess.check_output(["man", f"{page}"]).decode("utf-8") 
-      # Create temp file
-      f = open("./tmpman.txt", "w")
-      f.write(page_text)
-      f.close()
-      await ctx.message.reply(file=discord.File("./tmpman.txt"))
-
     @command(help="Express faith in something")
     async def true(self, ctx):
         embed = Embed()
@@ -58,6 +53,17 @@ class FunCogs(Cog):
         embed = Embed()
         await ctx.message.reply(file=discord.File(
             os.path.dirname(__file__) + "/../media/daisy.mp3"))
+
+    @command(help="Dave will sing to you")
+    async def sing(self, ctx, num=None):
+        choices = ["still_alive.mp3", "want_you_gone.mp3"]
+        if num is not None:
+            num = int(num)
+        else:
+            num = random.randint(0, 1)
+        embed = Embed()
+        await ctx.message.reply(file=discord.File(
+            os.path.dirname(__file__) + "/../media/" + choices[num]))
 
     @command(hidden=True)
     async def save_john_connor(self, ctx):
@@ -77,6 +83,13 @@ class FunCogs(Cog):
     @Cog.listener()
     async def on_message(self, message: discord.Message):
         if message.author == self.bot.user:
+            return
+
+        # NESS
+        regex = re.compile(r"(\bness\b)")
+        if re.search(regex, message.content.lower()):
+            await message.reply(
+                file=discord.File(os.path.abspath("./bot/media/ness.gif")))
             return
 
         # League of Gentlemen Localhost
@@ -105,8 +118,8 @@ class FunCogs(Cog):
         # insult
         bad_words = [
             "bad"
-            "shut up", "hate", "go away", "piss off", "fuck off", "fuck", "sucks",
-            "worst"
+            "shut up", "hate", "go away", "piss off", "fuck off", "fuck",
+            "sucks", "worst"
         ]
 
         response_gifs = [
@@ -156,11 +169,12 @@ class FunCogs(Cog):
             return
 
         # Information on the task
-        regex = re.compile(r"((how).*((meant)|(supposed)).*)")
+        regex = re.compile(r"((how).*((meant)|(supposed )).*)")
         if re.search(regex, message.content.lower()):
-            await message.reply(file=discord.File(os.path.abspath("./bot/media/taskmaster-all.gif")))
+            await message.reply(file=discord.File(
+                os.path.abspath("./bot/media/taskmaster-all.gif")))
             return
-        
+
         # C excerpt
         if "```c" in message.content.lower():
             text = self.get_wisdom_list()

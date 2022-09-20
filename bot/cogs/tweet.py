@@ -16,9 +16,9 @@ class Tweet(Cog):
       self.api = tweepy.API(auth)
       self.api.verify_credentials()
       print("verified")
-      schedule.every().monday.at("20:11").do(self.tweet)
-      schedule.every().wednesday.at("20:11").do(self.tweet)
-      schedule.every().friday.at("20:11").do(self.tweet)
+      schedule.every().monday.at("20:00").do(self.tweet)
+      schedule.every().wednesday.at("20:00").do(self.tweet)
+      schedule.every().friday.at("20:00").do(self.tweet)
       thread = Thread(target=self.start_tweeting)
       thread.start()
   
