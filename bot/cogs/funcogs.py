@@ -4,7 +4,7 @@ from discord import Embed, Member
 from discord.ext.commands import Cog, command, check
 from discord.ext import tasks
 import re
-from bot.settings import GENERAL_CHANNEL
+from bot.settings import GENERAL_CHANNEL, ALLOWED_FUN_CHANNELS
 from typing import List
 from time import sleep
 from discord.ext import commands
@@ -83,6 +83,9 @@ class FunCogs(Cog):
     @Cog.listener()
     async def on_message(self, message: discord.Message):
         if message.author == self.bot.user:
+            return
+
+        if message.channel.id not in ALLOWED_FUN_CHANNELS:
             return
 
         # NESS

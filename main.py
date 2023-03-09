@@ -1,8 +1,10 @@
 from bot import settings
 from bot.bot import Dave
 from discord import Intents
+from dotenv  import load_dotenv
 
 if __name__ == "__main__":
+    load_dotenv()
     bot = Dave(command_prefix="!", intents=Intents.all())
 
     bot.load_extension("bot.cogs.role_chooser")
