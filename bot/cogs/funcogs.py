@@ -188,8 +188,7 @@ class FunCogs(Cog):
                     return
 
         # wtf
-        if "wtf" in message.content.lower(
-        ) or "what the fuck" in message.content.lower():
+        if "wtf" in message.content.lower() and discord.author.id != "172432949306851328" or "what the fuck" in message.content.lower():
             with open(os.path.dirname(__file__) + "/../media/wat.txt",
                       "r") as f:
                 wat_list = f.read().splitlines()
@@ -199,7 +198,7 @@ class FunCogs(Cog):
             return
 
         # spanish inquisition
-        if "expect" in message.content.lower():
+        if "expect" in message.content.lower() and discord.author.id != "172432949306851328":
             embed = Embed()
             embed.set_image(
                 url=
@@ -208,7 +207,7 @@ class FunCogs(Cog):
             await message.reply(embed=embed)
             return
 
-        if "spam" in message.content.lower():
+        if "spam" in message.content.lower() and discord.author.id != "172432949306851328":
             embed = Embed()
             embed.set_image(
                 url=
