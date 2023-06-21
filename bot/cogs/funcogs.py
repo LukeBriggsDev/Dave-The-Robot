@@ -92,7 +92,7 @@ class FunCogs(Cog):
         regex = re.compile(r"(\bness\b)")
         if re.search(regex, message.content.lower()):
             await message.reply(
-                file=discord.File(os.path.dirname(__file__) + "/../media/ness.gif")))
+                file=discord.File(os.path.dirname(__file__) + "/../media/ness.gif"))
             return
 
         # League of Gentlemen Localhost
